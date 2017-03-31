@@ -1,0 +1,228 @@
+body,div,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,h6,pre,code,label,form,fieldset,input,textarea,select,p,blockquote,th,td{
+	margin:0;
+	padding:0
+}
+@font-face {
+	font-family:MyriadPro-Bold;
+	src:url(../fonts/MyriadPro/MyriadPro-Bold.otf);
+}
+@font-face {
+	font-family:MyriadPro-It;
+	src:url(../fonts/MyriadPro/MyriadPro-It.otf);
+}
+@font-face {
+	font-family:MyriadPro-Regular;
+	src:url(../fonts/MyriadPro/MyriadPro-Regular.otf);
+}
+.header{
+	height:120px;
+	background-color:#28363d;
+}
+.headerInside{
+	max-width:1400px;
+	margin: 0 auto;
+	height:100%;
+}
+
+.logo{
+	width: 230px;
+	float: left;
+	padding-top:40px;
+}
+.navigation{
+	width:940px;
+	margin-left:230px;
+	margin-right:230px;
+	height:120px;
+	overflow: hidden;
+}
+.divNav{
+	text-align:center;
+	width:140px;
+	float:left;
+	margin-left:20px;
+	height:120px;
+}
+.divPortfolio{
+	text-align:center;
+	width:140px;
+	float:left;
+	margin-left:20px;
+	height:116px;
+	border-bottom:4px solid #ff8207;
+}
+.navText{
+	padding-top:50px;
+}
+.divNav a, .divPortfolio a{
+	color:white;
+}
+.main{
+	color:#6b848c;
+}
+.main{
+	text-align:center;
+	width:140px;
+	height:116px;
+	background-color:#1e292f;
+	border-bottom:4px solid #ff8207;
+	float:left;
+}
+
+.phone{
+	padding-top:40px;
+	width:230px;
+	float:right;
+	color:#ff8207;
+	font-family:MyriadPro-Bold;
+}
+
+.navigation a{
+	font-family:MyriadPro-Regular;
+	text-decoration:none;
+}
+.title{
+	height:308px;
+}
+.title-block{
+	padding-top:75px;
+	max-width:780px;
+	margin: 0 auto;
+	text-align:center;
+	font-family:MyriadPro-Regular;
+}
+.title-text{
+	margin-top:60px;
+}
+.content_up{
+	height:375px;
+	background-color:#28363d;
+}
+.content{
+	margin-top:18px;
+	height:375px;
+	background-color:#28363d;
+}
+.contentInside{
+	max-width:780px;
+	margin: 0 auto;
+	padding-top:150px;
+}
+.article {
+	margin-left:160px;
+	width:780px;
+	text-align:justify;
+}
+.article i {
+	color:#8198a0;
+	font-family: MyriadPro-It;
+}
+.text{
+	color:#8198a0;
+	font-family: MyriadPro-Regular;
+}
+.name {
+	color:white;
+	font-family: MyriadPro-Bold;
+}
+
+.foto {
+	background-color:white;
+	height:140px;
+	width:140px;
+	float:left;
+}
+.page{
+	height:360px;
+}
+.next{
+	max-width:1400px;
+	margin: 0 auto;
+	position:relative;
+	height:100%;
+}
+.button{
+	width:380px;
+	margin: 0 auto;
+	padding-top:110px;
+}
+.button button{
+	font-size:200%;
+	color:#ff8207;
+	width:60px;
+	height:60px;
+	border-radius:5px;
+	background-color:white;
+	border-color:#ff8207;
+	margin-right:15px;
+}
+.up{
+	position:absolute;
+	bottom: 5px;
+	right:0;
+}
+.up button{
+	border-color:#ff8207;
+	width:60px;
+	height:60px;
+	background-color:white;
+	border-radius:5px;
+}
+
+.footlogo, .soc, .adress{
+	color:white;
+}
+.footlogo{
+	float:left;
+	width:230px;
+}
+.footlogo p {
+	font-family:MyriadPro-Regular;
+	margin-top:40px;
+}
+.soc{
+	margin-left:600px;
+	margin-right:600px;
+	width:140px;
+}
+.soc p{
+	font-family:MyriadPro-Bold;
+}
+.socbutton{
+	margin-top:60px;
+}
+.socbutton img{
+	padding-right:15px;
+}
+.adress{
+	width:230px;
+	float:right;
+	text-align:right;
+}
+.adress p{
+	font-family:MyriadPro-Regular;
+}
+.geo{
+	padding-top:40px;
+}
+.footer{
+	background-color:#28363d;
+	height:250px;
+}
+.footerInside{
+	max-width:1400px;
+	margin: 0 auto;
+	padding-top:60px;
+}
+
+.downFooter{
+	background-color:#1e292f;
+	height:60px;
+	color:white;
+	text-align:center;
+}
+.downFooter p{
+	margin:0;
+	padding-top:20px;
+	font-family:MyriadPro-Bold;
+}
